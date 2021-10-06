@@ -1,7 +1,6 @@
 [submodule "Http"]
 	path = Http
 	url = git@github.com:terrazza/component-http.git
-
 [submodule "ReflectionClass"]
 	path = ReflectionClass
 	url = git@github.com:terrazza/component-reflectionclass.git

@@ -1,0 +1,38 @@
+{
+    "name": "terrazza/component",
+    "version": "1.0.1",
+    "description": "http",
+    "license": "MIT",
+    "config" : {
+        "vendor-dir" : "plugin"
+    },
+    "authors": [
+        {
+            "name": "Peter Fux",
+            "email": "it@noframework.io"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "psr/http-message": "1.*",
+        "psr/http-client": "1.*",
+        "psr/http-factory": "1.*",
+        "psr/http-server-handler": "1.*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-fileinfo": "*"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Terrazza\\Component\\Http\\" : "Http\\src",
+            "Terrazza\\Component\\ReflectionClass\\" : "ReflectionClass\\src",
+            "Terrazza\\Component\\ReflectionClass\\Tests\\Examples\\" : "ReflectionClass\\tests\\Examples",
+            "Terrazza\\Component\\Serializer\\" : "Serializer\\src",
+            "Terrazza\\Component\\Serializer\\Tests\\Examples\\" : "Serializer\\tests\\Examples"
+        }
+    },
+    "minimum-stability": "dev"
+}
