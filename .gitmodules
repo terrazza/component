@@ -5,3 +5,6 @@
 [submodule "ReflectionClass"]
 	path = ReflectionClass
 	url = git@github.com:terrazza/component-reflectionclass.git
+[submodule "Serializer"]
+	path = Serializer
+	url = git@github.com:terrazza/component-serializer.git
