@@ -2,26 +2,17 @@
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd"
          colors="true"
-         bootstrap="plugin/autoload.php"
-         defaultTestSuite="all"
+         bootstrap=".plugin/autoload.php"
+         defaultTestSuite="self"
          failOnRisky="true"
          failOnWarning="true">
-  <coverage>
-    <include>
-      <directory>./</directory>
-    </include>
-    <exclude>
-      <directory>./plugin</directory>
-      <directory>./tests</directory>
-    </exclude>
-    <report>
-      <html outputDirectory="./.report"/>
-    </report>
-  </coverage>
   <php>
     <ini name="error_reporting" value="-1"/>
   </php>
   <testsuites>
+    <testsuite name="self">
+      <directory>tests/</directory>
+    </testsuite>
     <testsuite name="all">
       <directory>./Http/tests/</directory>
       <directory>./Serializer/tests/</directory>

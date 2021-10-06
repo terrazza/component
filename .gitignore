@@ -1,4 +1,8 @@
-/*/plugin/
+/*/.plugin/
+/.plugin/
 /*/.report/
+/.report/
+/*/.idea/
 /.idea/
 /*/.phpunit.result.cache
+/.phpunit.result.cache

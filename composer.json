@@ -4,7 +4,7 @@
     "description": "http",
     "license": "MIT",
     "config" : {
-        "vendor-dir" : "plugin"
+        "vendor-dir" : ".plugin"
     },
     "authors": [
         {
