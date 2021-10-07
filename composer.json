@@ -31,7 +31,8 @@
             "Terrazza\\Component\\ReflectionClass\\" : "ReflectionClass\\src",
             "Terrazza\\Component\\ReflectionClass\\Tests\\Examples\\" : "ReflectionClass\\tests\\Examples",
             "Terrazza\\Component\\Serializer\\" : "Serializer\\src",
-            "Terrazza\\Component\\Serializer\\Tests\\Examples\\" : "Serializer\\tests\\Examples"
+            "Terrazza\\Component\\Serializer\\Tests\\Examples\\" : "Serializer\\tests\\Examples",
+            "Terrazza\\Component\\Routing\\" : "Routing\\src"
         }
     },
     "minimum-stability": "dev"
