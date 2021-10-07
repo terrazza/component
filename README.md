@@ -1,5 +1,9 @@
 # Terrazza Component Monorepo
 
+### how to get repository within all submodules
+```
+git clone --recurse-submodules -j8 git://github.com/foo/bar.git
+```
 ### how to remove a submodule
 delete submodule from cache
 ```
