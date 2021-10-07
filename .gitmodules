@@ -11,5 +11,5 @@
 	path = Routing
 	url = git@github.com:terrazza/routing.git
 [submodule "routing-http"]
-	path = routing-http
+	path = Routing-Http
 	url = git@github.com:terrazza/routing-http.git
