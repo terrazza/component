@@ -10,3 +10,6 @@
 [submodule "Routing"]
 	path = Routing
 	url = git@github.com:terrazza/routing.git
+[submodule "Injector"]
+	path = Injector
+	url = git@github.com:terrazza/injector.git
