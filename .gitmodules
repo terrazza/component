@@ -3,16 +3,10 @@
 	url = git@github.com:terrazza/component-http.git
 [submodule "ReflectionClass"]
 	path = ReflectionClass
-	url = git@github.com:terrazza/component-reflectionclass.git
+	url = git@github.com:terrazza/reflectionclass.git
 [submodule "Serializer"]
 	path = Serializer
-	url = git@github.com:terrazza/component-serializer.git
-[submodule "routing"]
+	url = git@github.com:terrazza/serializer.git
+[submodule "Routing"]
 	path = Routing
 	url = git@github.com:terrazza/routing.git
-[submodule "routing-http"]
-	path = Routing-Http
-	url = git@github.com:terrazza/routing-http.git
-[submodule "injector"]
-	path = injector
-	url = git@github.com:terrazza/injector.git

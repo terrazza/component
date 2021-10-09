@@ -4,6 +4,10 @@
 ```
 git clone --recurse-submodules -j8 git://github.com/foo/bar.git
 ```
+### how to add a submodule
+```
+git submodule add {git@github....git}
+```
 ### how to remove a submodule
 delete submodule from cache
 ```
