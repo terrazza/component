@@ -13,3 +13,6 @@
 [submodule "routing-http"]
 	path = Routing-Http
 	url = git@github.com:terrazza/routing-http.git
+[submodule "injector"]
+	path = injector
+	url = git@github.com:terrazza/injector.git
